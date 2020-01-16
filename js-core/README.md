@@ -17,6 +17,16 @@ var res2 = (new Foo()).prototype === undefined;
 console.log(res1, res2);
 ```
 ---
+```javascript
+var aTemp = {a: 1};
+var bTemp = {b: 2};
+var b = Object.assign(aTemp, bTemp);
+var c = Object.assign({}, aTemp, bTemp);
+aTemp.a = 111;
+bTemp.b = 222;
+console.log(b, c);
+```
+---
 ```typescript
 class Test {
   constructor(public x: string, private y: string, z: string) {
@@ -614,3 +624,22 @@ console.log(test());
 console.log(test.call(obj.prop));
 ```
 
+## see also
+
+* [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
+* [https://github.com/FAQGURU/FAQGURU](A list of interview questions)
+* [https://github.com/h5bp/Front-end-Developer-Interview-Questions](Front-end Job Interview Questions)
+* [https://github.com/khan4019/front-end-Interview-Questions](Front end Interview Questions)
+* [https://github.com/yangshun/tech-interview-handbook](Materials to help you rock your next coding interview)
+* [https://github.com/loiane/javascript-datastructures-algorithms](https://github.com/loiane/javascript-datastructures-algorithms)
+* [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+* [https://github.com/ufocoder/javascript.anomaly](not obvious behaviors in JS)
+* [https://github.com/denysdovhan/wtfjs](A list of funny and tricky JavaScript examples)
+* [https://github.com/mbeaudru/modern-js-cheatsheet](Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects)
+* [https://github.com/rstacruz/cheatsheets](Devhints)
+* [https://github.com/goldbergyoni/nodebestpractices](Node.js best practices list)
+* [https://github.com/wesbos/JavaScript30](Starter Files + Completed solutions for the JavaScript 30 Day Challenge.)
+* [https://github.com/30-seconds/30-seconds-of-code](Short JavaScript code snippets for all your development needs)
+* [https://github.com/30-seconds/30-seconds-of-interviews](A curated collection of common interview questions to help you prepare for your next interview)
+* [https://github.com/rtivital/jsraccoon](советы по верстке и написанию JavaScript кода)
+* [https://github.com/MostlyAdequate/mostly-adequate-guide-ru](Mostly adequate guide to FP (ru)
