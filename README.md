@@ -3,6 +3,7 @@
 * [JS core](js-core/README.md)
 * [*NIX](nix/README.md)
 * [NodeJS](nodejs/README.md)
+* [Go](go/README.md)
 * [Frontend](frontend/README.md)
 * [Typescript](typescript/README.md)
 * [Angular](angular/README.md)
